@@ -724,11 +724,11 @@ button {
 }
 
 .content {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto auto;
   justify-content: center;
   max-width: 1220px;
   margin: 0 auto;
-  flex-wrap: wrap;
 }
 
 .card__pag {
